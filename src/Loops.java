@@ -136,12 +136,12 @@ public static void main(String[] args) {
  */
 public class Loops {
     public static void main(String a[]){
-        int i,j,k;
+        int i,j,p;
     for(i=1; i<=5; i++){
         for(j=i; j<5; j++){
             System.out.print(" ");
         }
-        for (k=1; k<=i; k++){
+        for (p=1; p<=i; p++){
             System.out.print(" *");
         }
         System.out.print("\n");
