@@ -177,13 +177,15 @@ class Loops
     {
         public static void main(String a[])
         {
-            int i=5,j=6;
-            for(i=0; i<=5; i++)
+            int i,j;
+            for(i=1; i<=5; i++)
             {
                 for(j=1; j<=i; j++)
                 {
-                    System.out.println(j + " ");
+                    System.out.print(i+" ");
                 }
+                System.out.println();
             }
+
         }
     }
